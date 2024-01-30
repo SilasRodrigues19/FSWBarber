@@ -1,6 +1,7 @@
-import Header from "../_components/header";
+import { Header } from "../_components/header";
 import { format } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
+import { Search } from "./_components/search";
 
 
 export default function Home() {
@@ -27,6 +28,11 @@ export default function Home() {
         <h2 className='text-xl font-bold'>Olá, Silas!</h2>
         <p className='text-sm'>{formattedDate}</p>
       </div>
+
+      <div className="px-5 mt-6">
+        <Search />
+      </div>
+
 
     </div>
   );

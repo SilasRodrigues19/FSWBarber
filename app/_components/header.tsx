@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card"
 import { Button } from "./ui/button";
 import { MenuIcon } from "lucide-react";
 
-const Header = () => {
+export const Header = () => {
   return (
     <Card className="rounded-none">
       <CardContent className="p-5 flex justify-between flex-row items-center">
@@ -15,5 +15,3 @@ const Header = () => {
     </Card>
   );
 }
-
-export default Header
