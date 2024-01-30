@@ -2,6 +2,11 @@
   "material-icon-theme.activeIconPack": "nest",
   "material-icon-theme.folders.associations": {
     "_lib": "lib",
-    "_components": "components",
+    "_components": "components"
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": false,
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  }
 }
