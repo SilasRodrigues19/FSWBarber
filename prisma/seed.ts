@@ -125,6 +125,7 @@ const seedDatabase = async () => {
                 id: barbershop.id,
               },
             },
+            imageUrl: service.imageUrl,
           },
         });
       }
