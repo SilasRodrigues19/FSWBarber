@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/SilasRodrigues19/FSWBarber/compare/v0.1.2...v0.1.3) (2024-02-11)
+
+
+### Features
+
+* add barbershopinfo component ([76dc140](https://github.com/SilasRodrigues19/FSWBarber/commit/76dc140c5a1f95a8a0b7046dc3802cebb2fb0197))
+* add footer component ([d05bf28](https://github.com/SilasRodrigues19/FSWBarber/commit/d05bf2886afe4d55acedb95a6255c148bd8d94aa))
+* add initial barbershop item component ([2866898](https://github.com/SilasRodrigues19/FSWBarber/commit/2866898f86ddf49cad1eb70bfe1d04b33a145df3))
+* add service item component ([91e7893](https://github.com/SilasRodrigues19/FSWBarber/commit/91e78938ef492fbe74c896a5d50729be825f5c30))
+* **routes:** add page to render barbershop by id ([a10fd5f](https://github.com/SilasRodrigues19/FSWBarber/commit/a10fd5fc22b2669ed423f4083a05e438e38b76f8))
+* **schema:** add image url field in service model and adjust seed ([ea109bb](https://github.com/SilasRodrigues19/FSWBarber/commit/ea109bbdfc972bbc424ecaebc5abdb04916de2c1))
+
+
+### Bug Fixes
+
+* **prisma:** imageurl with wrong content ([5b60021](https://github.com/SilasRodrigues19/FSWBarber/commit/5b60021a011d64dff896820b06aed657df68ebe2))
+
 ### [0.1.2](https://github.com/SilasRodrigues19/FSWBarber/compare/v0.1.1...v0.1.2) (2024-01-30)
 
 
