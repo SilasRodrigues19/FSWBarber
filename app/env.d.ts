@@ -7,3 +7,6 @@ const envSchema = z.object({
 });
 
 export const env = envSchema.parse(process.env);
+
+export type GOOGLE_CLIENT_ID = typeof env.GOOGLE_CLIENT_ID;
+export type GOOGLE_CLIENT_SECRET = typeof env.GOOGLE_CLIENT_SECRET;
