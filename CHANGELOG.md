@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/SilasRodrigues19/FSWBarber/compare/v0.1.3...v0.1.4) (2024-02-13)
+
+
+### Features
+
+* add auth provider ([b36cf41](https://github.com/SilasRodrigues19/FSWBarber/commit/b36cf41fe4aebf97d8a99f20b2b555e4c4370362))
+* add side menu component ([4662d1e](https://github.com/SilasRodrigues19/FSWBarber/commit/4662d1e437b38b36a2eace23899ac3223228cf67))
+* **auth:** add next-auth with google provider ([448c0fd](https://github.com/SilasRodrigues19/FSWBarber/commit/448c0fdecf6ba40fb867554aa1d64da8786a9111))
+* ensure unauthenticated user is redirected to login on booking click ([2bd11aa](https://github.com/SilasRodrigues19/FSWBarber/commit/2bd11aadf8fe2b272b06ec00f6b497f70877dffa))
+* implement signin and signout methods with next-auth ([1023b17](https://github.com/SilasRodrigues19/FSWBarber/commit/1023b1746b6ab706a4201820dcd805702c8e3e4d))
+* **prisma:** add auth tables ([3c56b19](https://github.com/SilasRodrigues19/FSWBarber/commit/3c56b19357d095182505f69576d995a47b380061))
+
+
+### Bug Fixes
+
+* export types to solve next module error ([9087606](https://github.com/SilasRodrigues19/FSWBarber/commit/9087606afdc2a4e431d034d718f53aeb2c3a8a71))
+
 ### [0.1.3](https://github.com/SilasRodrigues19/FSWBarber/compare/v0.1.2...v0.1.3) (2024-02-11)
 
 
